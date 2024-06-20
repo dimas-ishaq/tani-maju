@@ -39,61 +39,67 @@ body {
 }
 
 .hero-container {
-  position: relative !important;
+  display: flex;
+  justify-content: center;
 }
 
-.hero .hero-content {
+.hero-container .hero-content {
+  display: flex;
   background-color: rgba(1, 1, 1, 0.8);
   border-radius: 15px;
   color: rgb(219, 216, 227);
   padding: 1.4rem 7%;
   width: 100%;
+  justify-content: center;
   text-align: center;
   position: absolute;
-  margin-left: 20%;
   margin-top: 170px;
   max-width: 50rem;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
 }
 
 .action ul {
   display: flex;
   justify-content: center;
-  gap: 45px;
-  padding: 1.4rem 7%;
-  width: 100%;
   text-align: center;
+  gap: 40px;
+  padding: 1.4rem 7%;
   position: absolute;
-  margin-left: 20%;
   top: 410px;
-  max-width: 50rem;
+  max-width: 45rem;
   list-style-type: none;
-  z-index: 2;
 }
 
 .action ul .li-action-left span {
-  background-color: rgb(219, 216, 227);
+  background-color: #f44336;
   font-weight: bold;
   border-radius: 6px;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 15px;
 }
 
 .action ul .li-action-right span {
-  background-color: rgb(60, 91, 111);
+  background-color: royalblue;
   font-weight: bold;
   border-radius: 6px;
-  color: rgb(219, 216, 227);
+  color: rgb(255, 255, 255);
   padding: 15px;
 }
 
 .action ul .li-action-left span:hover {
-  background-color: #0056b3;
-  color: white;
+  background-color: #23ff02;
+  color: rgb(0, 0, 0);
 }
 
 .action ul .li-action-right span:hover {
-  background-color: rgb(12, 24, 68);
-  color: white;
+  background-color: #23ff02;
+  color: rgb(0, 0, 0);
 }
 
 /* Hero-End */
@@ -402,15 +408,24 @@ th {
   color: white;
 }
 
+/* Card-Start */
 
 .section-card {
-  margin-top: 500px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 655px;
+  flex-wrap: wrap;
 }
 
 .section-card .title-card {
-  display: grid;
-  position: sticky;
-  margin-top: 750px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: absolute;
   margin-bottom: 50px;
   background-color: rgba(1, 1, 1, 0.8);
   border-radius: 15px;
@@ -418,8 +433,6 @@ th {
   padding: 1.4rem 7%;
   width: 100%;
   text-align: center;
-  position: relative;
-  margin-left: 20%;
   max-width: 50rem;
 }
 
@@ -535,16 +548,17 @@ th {
 
 /* Page Panduan */
 
-.hero-panduan-image {
+.hero-panduan {
   width: 100%;
-  height: auto;
-  z-index: -11;
-  position: fixed;
-  margin-top: -45%;
+  height: 10px;
 }
 
 .hero-panduan-image img {
   width: 100%;
+  height: auto;
+  position: fixed;
+  top: -12%;
+  z-index: -11;
 }
 
 .container-panduan {
@@ -552,71 +566,69 @@ th {
   margin: 0 auto;
 }
 
-.hero-panduan {
-  position: absolute;
+.hero-panduan-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-panduan-container .hero-panduan-title {
+  display: flex;
+  background-color: rgba(203, 201, 201, 0.8);
+  border-radius: 15px;
+  color:  rgba(1, 1, 1, 0.8);
+  padding: 1.4rem 7%;
+  width: 100%;
+  justify-content: center;
   text-align: center;
-  padding: 0px;
-  width: 1010px;
-  background-color: rgba(239, 231, 231, 0.692);
-  border-radius: 10px;
+  position: absolute;
+  margin-top: 140px;
+  width: 50rem;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.panduan-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .panduan-action ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  padding: 1.4rem 7%;
+  position: absolute;
+  top: 58%;
+  width: 45rem;
+  list-style-type: none;
+}
+
+.panduan-action ul .panduan-li-action-left span {
+  background-color: #f44336;
+  font-weight: bold;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.panduan-action ul .panduan-li-action-right span {
+  background-color: royalblue;
+  font-weight: bold;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.panduan-action ul .panduan-li-action-left span:hover {
+  background-color: #23ff02;
   color: rgb(0, 0, 0);
-  height: 220px;
-  margin-left: 13.5%;
-  margin-top: -25%;
 }
 
-.hero-panduan h1 {
-  margin-top: 50px;
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.hero-panduan p {
-  margin-top: -10px;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.hero-panduan .action ul {
-  left: -10%;
-  top: 110%;
-}
-
-.action ul .panduan-li-action-left span {
-  background-color: rgb(0, 125, 209);
-  font-weight: bold;
-  border-radius: 6px;
-  color: rgb(219, 216, 227);
-  padding: 15px;
-}
-
-.action ul .panduan-li-action-left span:hover {
-  background-color: rgb(52, 255, 106);
-  font-weight: bold;
-  border-radius: 6px;
-  color: rgb(11, 10, 14);
-  padding: 15px;
-}
-
-.action ul .panduan-li-action-right span {
-  background-color: rgb(227, 18, 18);
-  font-weight: bold;
-  border-radius: 6px;
-  color: rgb(219, 216, 227);
-  padding: 15px;
-}
-
-.action ul .panduan-li-action-right span:hover {
-  background-color: rgb(52, 255, 106);
-  font-weight: bold;
-  border-radius: 6px;
-  color: rgb(11, 10, 14);
-  padding: 15px;
-}
-
-.hero-panduan .btn:hover {
-  background-color: #0056b3;
-  color: white;
+.panduan-action ul .panduan-li-action-right span:hover {
+  background-color: #23ff02;
+  color: rgb(0, 0, 0);
 }
 
 .guide {
@@ -1084,22 +1096,27 @@ th {
 }
 
 .section-card-investasi {
-  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+
 }
 
 .section-card-investasi .title-card-investasi {
-  display: grid;
-  position: sticky;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: absolute;
   margin-top: 100px;
-  margin-bottom: 50px;
   background-color: rgba(1, 1, 1, 0.8);
   border-radius: 15px;
   color: rgb(219, 216, 227);
   padding: 1.4rem 7%;
   width: 100%;
   text-align: center;
-  position: relative;
-  margin-left: 20%;
   max-width: 50rem;
 }
 
@@ -1113,6 +1130,7 @@ th {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
+  margin-top: 8%;
 }
 
 .card-investasi {
@@ -1301,7 +1319,6 @@ th {
   justify-content: space-around;
   padding: 20px;
   background-color: #1c1c1c;
-  gap: 30%;
 }
 
 .info .info-item {
@@ -1310,6 +1327,7 @@ th {
   justify-content: flex-start;
   padding: 30px;
   flex-grow: 1;
+  width: 500%;
 }
 
 .info .info-item h3 {
