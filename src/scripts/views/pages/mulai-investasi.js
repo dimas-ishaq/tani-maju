@@ -16,7 +16,7 @@ const mulaiInvestasi = {
     </section>
 
     <section id="section-card-investasi" class="section-card-investasi">
-    <div class="title-card-investasi">
+      <div class="title-card-investasi">
         <h2>
           <span>Mulailah Berbisnis Dengan Mitra Kami</span>
         </h2>
@@ -25,12 +25,14 @@ const mulaiInvestasi = {
           repellendus numquam quam tempora voluptatum.
         </p>
       </div>
-      <div class="container-investasi"> <!-- Konten kartu akan dimuat di sini -->
+    </section>
+    
+      <div class="container-investasi">
+        <!-- Konten kartu akan dimuat di sini -->
       </div>
       <div class="navigation-investasi">
         <a type="button" id="back-to--top" href="#">Kembali ke Atas</a>
       </div>
-    </section>
     `;
   },
 
