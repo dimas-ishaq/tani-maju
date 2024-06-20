@@ -1,14 +1,17 @@
 /* eslint-disable import/prefer-default-export */
 const createDetailTemplate = (product) => `
 <!-- Hero Detail Section-Start -->
+
 <section class="hero-detail">
   <div class="detail-image">
     <img src="http://localhost:3000${product.cover.url}" alt="${product.brandName}" />
   </div>
 </section>
+
 <!-- Hero Detail Section-End -->
 
 <!-- Detail-Start -->
+
 <section class="info">
   <div class="info-item">
     <h1>Informasi Saham Petani</h1>
@@ -33,6 +36,7 @@ const createDetailTemplate = (product) => `
   </div>
 
   <!-- Gallery-Start -->
+  
   <div class="gallery-detail">
     <h2>"Gallery"</h2>
     <div class="gallery-detail-images">
@@ -40,10 +44,11 @@ const createDetailTemplate = (product) => `
     </div>
   </div>
 </section>
+
 <!-- Gallery-End -->
+
 <!-- Detail-End -->
 `;
-
 export {
   createDetailTemplate,
 };
