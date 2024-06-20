@@ -68,7 +68,7 @@ const createaboutTemplate = () => `
             </div>
           </div>
           <div class="team-member">
-            <img src="/img/member/member-4.png" alt="Team Member" />
+            <img src="/img/member/member-4.jpg" alt="Team Member" />
             <p>Kanro</p>
             <span>Back-End</span>
             <div class="social-icons">
