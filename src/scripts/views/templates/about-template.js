@@ -14,7 +14,7 @@ const createaboutTemplate = () => `
         <h2>Our Investa Company Dedicated Team Member</h2>
         <div class="team-members">
           <div class="team-member">
-            <img src="/img/member/member-1.jpg" alt="Team Member" />
+            <img src="/img/member/member-1.png" alt="Team Member" />
             <p>Muhammad Yofan Haditama Soepandi</p>
             <span>Front-End</span>
             <div class="social-icons">
@@ -32,7 +32,7 @@ const createaboutTemplate = () => `
             </div>
           </div>
           <div class="team-member">
-            <img src="/img/member/member-2.jpg" alt="Team Member" />
+            <img src="/img/member/member-2.png" alt="Team Member" />
             <p>Alvin Sidiq</p>
             <span>Back-End</span>
             <div class="social-icons">
@@ -50,7 +50,7 @@ const createaboutTemplate = () => `
             </div>
           </div>
           <div class="team-member">
-            <img src="/img/member/member-3.jpg" alt="Team Member" />
+            <img src="/img/member/member-3.png" alt="Team Member" />
             <p>Wildan</p>
             <span>Front-End</span>
             <div class="social-icons">
@@ -68,7 +68,7 @@ const createaboutTemplate = () => `
             </div>
           </div>
           <div class="team-member">
-            <img src="/img/member/member-4.jpg" alt="Team Member" />
+            <img src="/img/member/member-4.png" alt="Team Member" />
             <p>Kanro</p>
             <span>Back-End</span>
             <div class="social-icons">
