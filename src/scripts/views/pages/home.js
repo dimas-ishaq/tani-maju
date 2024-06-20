@@ -1,7 +1,11 @@
 const HomePage = {
   async render() {
     return `
-      <hero-section></hero-section>
+      <hero-section>
+      
+      </hero-section>
+
+      <!-- Card Section-Start -->
       <section id="section-card" class="section-card">
         <div class="title-card">
           <h2>
@@ -12,13 +16,16 @@ const HomePage = {
             repellendus numquam quam tempora voluptatum.
           </p>
         </div>
+      </section>
+
         <div class="container">
         </div>
         <div class="navigation">
           <button id="prevBtn">Prev</button>
           <button id="nextBtn">Next</button>
         </div>
-      </section>
+        
+      <!-- Card Section-End -->
     `;
   },
 
@@ -52,7 +59,7 @@ const HomePage = {
         `;
       });
 
-      document.querySelector('#section-card .container').innerHTML = listPetani;
+      document.querySelector('.container').innerHTML = listPetani;
 
       const container = document.querySelector('.container');
       const prevBtn = document.getElementById('prevBtn');
