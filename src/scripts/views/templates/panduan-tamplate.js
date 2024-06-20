@@ -1,31 +1,35 @@
 /* eslint-disable import/prefer-default-export */
 const creatPanduanTemplate = () => `
-    <!-- Hero-Start -->
-
+<!-- Hero-Start -->
+    
+<section class="hero-panduan">
   <div class="hero-panduan-image">
-      <img src="img/hero-contact.jpg" alt="hero-contact" />
+      <img src="img/hero-panduan.jpg" alt="hero-contact" />
   </div>
 
-  <div class="hero-panduan">
+  <div class="hero-panduan-container">
+    <div class="hero-panduan-title">
       <h1>Langkah Sederhana Memulai Investasi di <span>Tani Maju</span></h1>
       <p>"Investasi tidak perlu rumit, siapapun bisa berinvestasi."</p>
-      <div class="action">
-        <ul>
-          <li class="panduan-li-action-left">
-            <a type="button" href="#/mulaiinvestasi"
-              ><span>Mulai Investasi</span></a
-            >
-          </li>
-          <li class="panduan-li-action-right">
-            <a type="button" href="#/daftarkanbisnis"
-              ><span>Daftarkan Bisnis</span></a
-            >
-          </li>
-        </ul>
-      </div>
     </div>
+    <div class="panduan-action">
+      <ul>
+        <li class="panduan-li-action-left">
+          <a type="button" href="#/mulaiinvestasi"
+            ><span>Mulai Investasi</span></a
+          >
+        </li>
+        <li class="panduan-li-action-right">
+          <a type="button" href="#/daftarkanbisnis"
+            ><span>Daftarkan Bisnis</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-      <!-- Hero-End -->
+<!-- Hero-End -->
 
   <main>
       <section class="guide">
@@ -82,7 +86,7 @@ const creatPanduanTemplate = () => `
     <main>
       <section class="guide-investor">
         <div class="container-panduan-investor">
-          <h1>UNTUK NVESTOR</h1>
+          <h1>UNTUK INVESTOR</h1>
           <h2>
             Panduan singkat cara investasi dari kami dan dapatkan penghasilan
             rutin dari bagi hasil bisnis yang Anda pilih.
