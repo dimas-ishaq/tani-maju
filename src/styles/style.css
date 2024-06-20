@@ -600,7 +600,7 @@ th {
   gap: 40px;
   padding: 1.4rem 7%;
   position: absolute;
-  top: 58%;
+  top: 72%;
   width: 45rem;
   list-style-type: none;
 }
@@ -632,7 +632,7 @@ th {
 }
 
 .guide {
-  padding: 50px 0;
+  padding: 100px 0;
   color: white;
   margin-top: 30%;
 }
@@ -642,7 +642,7 @@ th {
   text-align: center;
   margin-bottom: 40px;
   font-size: 1.5em;
-  padding: 50px;
+  padding: 70px;
   background-color: rgb(145, 49, 49);
   border-radius: 10px;
   color: rgb(194, 255, 107);
@@ -663,9 +663,9 @@ th {
   justify-content: center;
   background-color: rgb(145, 49, 49);
   border-radius: 6px;
-  width: 18%;
+  width: 48%;
   margin-bottom: 10px;
-  margin-left: 41%;
+  margin-left: 30%;
 }
 
 .steps {
